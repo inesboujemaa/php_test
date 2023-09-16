@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulaire d'ajout de club</title>
+    <style>
+        /* Style pour le cadre */
+        #cadre {
+            border: 1px solid #000;
+            padding: 20px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ajouter un club</h1>
+    <h2>formulaire :</h2>
+    <div id="cadre">
+        <form action="traitement.php" method="GET">
+            <label for="id">ID* :</label>
+            <input type="text" name="id" id="id" required><br><br>
+            
+            <label for="nom">Nom* :</label>
+            <input type="text" name="nom" id="nom" required><br><br>
+            
+            <label for="description">Description* :</label>
+            <input type="text name="description" id="description" required><br><br>
+            
+            <label for="adresse">Adresse* :</label>
+            <input type="text" name="adresse" id="adresse" required><br><br>
+            
+            <label for="domaine">Domaine* :</label>
+            <input type="text" name="domaine" id="domaine" required><br><br>
+            
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+</body>
+</html>
